@@ -1,0 +1,268 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color:rgb(50, 99, 99);
+    width: 100%;
+    position: fixed;
+    padding: 17px 0px;
+}
+.maxwidth{
+    max-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+
+}
+.navbar .maxwidth{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo a{
+    color: white;
+}
+.logo a span{
+    color: rgb(243, 19, 19);
+}
+.navbar .menubar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menubar li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.navbar .menubar li a:hover{
+    color: rgb(238, 5, 5);
+    text-decoration: underline;
+}
+.navbar .menubar li a.active{
+    color: rgb(238, 5, 5);
+    text-decoration: underline;
+}
+.homepage{
+    display: flex;
+    background: url("img/backgroundhome.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 90% 15%;
+    background-size:100% 100%;
+    height: 100vh;
+}
+.home-content{
+    text-align: left;
+    top: 100px;
+    padding: 10px 10px;
+    margin: 200px 100px;
+
+}
+.img{
+    display: inline-block;
+    /* border:2px solid red; */
+    position:absolute;
+    right: 200px;
+    top: 180px;
+}
+.img img{
+    width: 400px;
+    height: 400px;
+    float: right;
+    border-radius: 200px;
+}
+.main-content .item1{
+color: rgb(203, 247, 11);
+font-size: 30px;
+font-weight: 400;
+}
+.main-content .item2{
+color: aliceblue;
+font-size: 50px;
+font-weight: 600;
+}
+.main-content .item3{
+color: aliceblue;
+font-size: 40px;
+font-weight: 500;
+}
+.main-content .item3 span{ 
+color: red;
+font-size: 50px;
+font-weight: 600;
+}
+.main-content .item4{
+color: white;
+font-size: 40px;
+font-weight: 400;
+}
+.footer{
+    background-color:rgb(50, 99, 99);
+}
+.footer .logo{
+    padding: 15px 118px;
+}
+.footer .social-sites{
+    float: inline-end;
+    align-items: center;
+    text-align: center;
+    
+}
+.footer .social-sites h1{
+    /* padding: 2px 2px; */
+}
+.footer .social-sites .btnfacebook{
+    padding: 2px 2px;
+    margin:2px auto;
+    background-color: rgb(20, 222, 248);
+}
+.footer .social-sites .btninstagram{
+    padding: 2px 2px;
+    margin:2px auto;
+    background-color: pink;
+}
+.footer .social-sites .btnlinkedin{
+    padding: 2px 2px;
+    margin:2px auto;
+    background-color:rgb(20, 222, 248);
+}
+.aboutme{
+    background: url('img/about-background.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 90% 15%;
+    background-size:100% 100%;
+    height: 100vh;
+}
+.aboutme .content{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 40px 50px;
+    margin: auto;
+}
+.aboutme .content h1{
+    color: rgb(253, 142, 14);
+    text-decoration: underline rgb(229, 253, 13);
+}
+.aboutme .content .name{
+    color: rgb(20, 243, 224);
+    font-size: 50px;
+    font-weight: 300;
+}
+.aboutme .content .home{
+    color: rgb(252, 38, 234);
+}
+.aboutme .content .school1{
+    color: rgb(39, 233, 21);
+}
+.aboutme .content .school2{
+    color: rgb(39, 233, 21);
+}
+.aboutme .content .school3{
+    color: rgb(39, 233, 21);
+}
+.aboutme .content .post{
+    color: rgb(233, 123, 21);
+}
+.form-content{
+    background: url('img/contactmeback.jpg');
+    color: white;
+    padding: 100px 4px;
+    margin: 0px 0px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 90% 15%;
+    background-size:100% 100%;
+    height: 100vh;
+}
+.costumer{
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 100px 10px;
+  margin: 9px auto;
+  width: 33%;
+  box-sizing: border-box;
+  height: 500px;
+}
+.costumer-detail h1{
+  text-align: center;
+  padding: 10px 10px;
+}
+.costumer-detail input{
+  padding: 4px 4px;
+  margin:5px auto;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: block;
+  width: 70%;
+}
+ 
+.costumer-detail a{
+  text-align: center;
+}
+.costumer button{
+  display: block;
+  width: 50%;
+  margin: 4px auto;
+  padding: 4px 4px;
+  background-color:black;
+  color:white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.costumer .logo{
+    text-align: center;
+    padding: 1px 10px 30px 10px;
+    font-size: 50px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+  /* linkedin */
+ .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+ } 
+  /* linkedin */
+ .fa-instagram {
+    background: white;
+    color: #bc2a8d;
+ } 
+  
